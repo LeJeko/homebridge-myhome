@@ -1,22 +1,31 @@
 {
-  "name": "homebridge-myhome",
-  "version": "0.1.18",
-  "description": "Legrand MyHome plugin for homebridge: https://github.com/nfarina/homebridge",
+  "name": "homebridge-myhome-own",
+  "version": "0.2.0",
+  "description": "Legrand MyHome OpenWebNet plugin",
   "license": "MIT",
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "Legrand",
+    "Bticino",
+    "MyHome",
+    "OpenWebNet",
+    "ovn"
   ],
   "engines": {
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
   },
   "author": {
-    "name": "Simone Tisa"
+    "name": "LeJeko"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simont77/homebridge-myhome"
+    "url": "https://github.com/LeJeko/homebridge-myhome"
   },
+  "bugs": {
+    "url": "https://github.com/LeJeko/homebridge-myhome/issues"
+  },
+  "homepage": "https://github.com/LeJeko/homebridge-myhome#readme",
   "dependencies": {
     "debug": "^2.4.5",
     "net": "^1.0.0",
